@@ -7,7 +7,7 @@ export default function HomePage() {
   const count = useAppSelector((state) => state.counterReducer.counter);
   const dispatch = useAppDispach();
 
-  const [name, setName] = useState("Daivy");
+  const [name, setName] = useState("Juan");
 
   return (
     <div>
